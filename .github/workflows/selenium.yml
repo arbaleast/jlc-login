@@ -34,4 +34,5 @@ jobs:
         run: |
           sudo cp -p ./chromedriver /usr/bin/
           chmod -R 777 /usr/bin/chromedriver
-          python ./jlc-login.py
+          ls
+          python jlc-login.py

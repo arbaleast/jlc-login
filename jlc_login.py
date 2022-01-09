@@ -9,11 +9,11 @@ import time##不能一直爬取页面所以需要睡一会儿
 import json##用来保存网站登录cookie，以后可以免密登录网站
 import os, time
 
-options = webdriver.FirefoxOptions()
+options = webdriver.ChromeOptions()
 options.add_argument('-headless')
 options.add_argument('--disable-gpu')
-service = Service('D:\\Program Files\\geckodriver.exe')
-browser = webdriver.Firefox(service=service, options=options)
+service = Service('/usr/bin/chromedriver.exe')
+browser = webdriver.Chrome(service=service, options=options)
 
 def enter_web():
 	#进入登录网页

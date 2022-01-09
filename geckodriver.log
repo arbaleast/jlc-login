@@ -84,18 +84,16 @@ JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WE
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilecENpKr\thumbnails) because it does not exist
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilecENpKr\thumbnails) because it does not exist
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilecENpKr\thumbnails) because it does not exist
-t C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofiletkUect\\search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:6376/devtools/browser/a634faf5-2ad9-4fba-a54c-21b0db1891e0
-1641719188203	Marionette	INFO	Listening on port 6382
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilecENpKr\thumbnails) because it does not exist
+88203	Marionette	INFO	Listening on port 6382
 1641719188463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofiletkUect\thumbnails) because it does not exist
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofiletkUect\thumbnails) because it does not exist
 JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofiletkUect\thumbnails) because it does not exist
-/localhost:6505/devtools/browser/ae4d26a9-dc6e-4f10-8cea-8500e59d42da
-1641719243502	Marionette	INFO	Listening on port 6510
-1641719244003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofiletkUect\thumbnails) because it does not exist
+ session
 JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 1641719788818	Marionette	INFO	Stopped listening on port 6510

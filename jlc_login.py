@@ -12,7 +12,7 @@ options = webdriver.ChromeOptions()
 options.add_argument('-headless')
 options.add_argument('--disable-gpu')
 service = "/usr/bin/chromedriver"
-browser = webdriver.Chrome(,options=options, service=service)
+browser = webdriver.Chrome(options=options, service=service)
 
 def enter_web():
 	#进入登录网页

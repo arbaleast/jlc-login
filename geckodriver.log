@@ -1,0 +1,307 @@
+1641717943734	geckodriver	INFO	Listening on 127.0.0.1:5485
+1641717946761	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5486" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilecVPhA5"
+1641717947152	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilecVPhA5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:5486/devtools/browser/6bd443c3-fa9f-4464-a0f9-4534d4b41f95
+1641717949222	Marionette	INFO	Listening on port 5492
+1641717949476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641718278934	Marionette	INFO	Stopped listening on port 5492
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ppData\\Local\\Temp\\rust_mozprofilezbeubQ"
+*** You are running in headless mode.
+1641718159196	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilezbeubQ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:5591/devtools/browser/6c4c716b-93b8-4265-bf2d-87eb1dd179eb
+1641718160188	Marionette	INFO	Listening on port 5596
+1641718160414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilezbeubQ\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilezbeubQ\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilezbeubQ\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilezbeubQ\thumbnails) because it does not exist
+79542	Marionette	INFO	Listening on port 5648
+1641718179641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofileUq1APg\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofileUq1APg\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofileUq1APg\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofileUq1APg\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofileUq1APg\thumbnails) because it does not exist
+9	geckodriver	INFO	Listening on 127.0.0.1:5756
+1641718258246	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "5757" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileXpw4Ty"
+1641718258651	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileXpw4Ty\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:5757/devtools/browser/b76ab572-7209-4152-b96d-216c9c715165
+1641718260572	Marionette	INFO	Listening on port 5762
+1641718260946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641718296341	Marionette	INFO	Stopped listening on port 5762
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641718304604	geckodriver	INFO	Listening on 127.0.0.1:5814
+1641718307674	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "5815" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilewuZ6SU"
+1641718308000	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilewuZ6SU\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:5815/devtools/browser/64432510-d809-41c7-8c51-14be1cd38312
+1641718309818	Marionette	INFO	Listening on port 5820
+1641718309861	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641718365439	Marionette	INFO	Stopped listening on port 5820
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641718372897	geckodriver	INFO	Listening on 127.0.0.1:5934
+1641718375943	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "5935" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileXuZdsx"
+*** You are running in headless mode.
+1641718376309	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileXuZdsx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:5935/devtools/browser/264d8d9e-6b41-434d-a3a4-056abd62ebdf
+1641718377265	Marionette	INFO	Listening on port 5941
+1641718377569	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641718385654	Marionette	INFO	Stopped listening on port 5941
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x590008,name=PHttpChannel::Msg_DeletingChannel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641719163117	geckodriver	INFO	Listening on 127.0.0.1:6288
+1641719166207	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "6289" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilecENpKr"
+*** You are running in headless mode.
+1641719166708	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilecENpKr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6289/devtools/browser/a241d3d8-bccb-4f54-bf2b-a9da6ef054b1
+1641719167659	Marionette	INFO	Listening on port 6294
+1641719167766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilecENpKr\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilecENpKr\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofilecENpKr\thumbnails) because it does not exist
+t C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofiletkUect\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6376/devtools/browser/a634faf5-2ad9-4fba-a54c-21b0db1891e0
+1641719188203	Marionette	INFO	Listening on port 6382
+1641719188463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofiletkUect\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofiletkUect\thumbnails) because it does not exist
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\33098\AppData\Local\Temp\rust_mozprofiletkUect\thumbnails) because it does not exist
+/localhost:6505/devtools/browser/ae4d26a9-dc6e-4f10-8cea-8500e59d42da
+1641719243502	Marionette	INFO	Listening on port 6510
+1641719244003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641719788818	Marionette	INFO	Stopped listening on port 6510
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+l\\Temp\\rust_mozprofile3Yqz3T"
+1641719462443	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile3Yqz3T\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:6786/devtools/browser/7d54ad92-7ebc-4879-b467-46baeae58972
+1641719464293	Marionette	INFO	Listening on port 6793
+1641719464654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641720176568	Marionette	INFO	Stopped listening on port 6793
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+disable-gpu" "--remote-debugging-port" "7028" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileSIGkni"
+1641719626105	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileSIGkni\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7028/devtools/browser/ad259900-5374-4157-b412-13ff34ad5740
+1641719628200	Marionette	INFO	Listening on port 7034
+1641719628299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641720175497	Marionette	INFO	Stopped listening on port 7034
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+l\\Temp\\rust_mozprofile7UBg6s"
+1641719694014	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile7UBg6s\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7181/devtools/browser/ff480ffb-aff9-480c-8b4a-67ac183f9899
+1641719695992	Marionette	INFO	Listening on port 7188
+1641719696366	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641719730447	Marionette	INFO	Stopped listening on port 7188
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+l\\Temp\\rust_mozprofileeKiAot"
+1641719725256	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileeKiAot\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7309/devtools/browser/bab0dc6a-c34c-44e6-ae79-91a9fb5fa911
+1641719727167	Marionette	INFO	Listening on port 7315
+1641719727440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641719786186	geckodriver	INFO	Listening on 127.0.0.1:7410
+1641719789220	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "7411" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileQdhthE"
+1641719789890	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileQdhthE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7411/devtools/browser/b6eb438d-49cb-410c-b409-c2d55a673413
+1641719791706	Marionette	INFO	Listening on port 7426
+1641719792001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641719824611	Marionette	INFO	Stopped listening on port 7426
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641719831229	geckodriver	INFO	Listening on 127.0.0.1:7497
+1641719834285	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "7498" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileYivH0g"
+1641719834936	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileYivH0g\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7498/devtools/browser/9f25c5f8-1a7a-40ae-95e3-c12a130627d7
+1641719836980	Marionette	INFO	Listening on port 7504
+1641719837478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641719847199	Marionette	INFO	Stopped listening on port 7504
+1641720128724	geckodriver	INFO	Listening on 127.0.0.1:7867
+1641720131806	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "7868" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileas3KmA"
+1641720132284	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileas3KmA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7868/devtools/browser/195c11bb-9823-42f6-ad0f-3622b4cacb41
+1641720134074	Marionette	INFO	Listening on port 7873
+1641720134578	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641720143204	Marionette	INFO	Stopped listening on port 7873
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641720155418	geckodriver	INFO	Listening on 127.0.0.1:7991
+1641720158487	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "7992" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilewPSPES"
+1641720158851	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilewPSPES\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:7992/devtools/browser/d79f5127-891f-449b-ae2e-9b090fd796c5
+1641720160623	Marionette	INFO	Listening on port 7999
+1641720160716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641720389488	Marionette	INFO	Stopped listening on port 7999
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+l\\Temp\\rust_mozprofileYguRSq"
+1641720244552	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileYguRSq\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8171/devtools/browser/2cfec1ab-14c1-488b-bf4e-d420872cc403
+1641720246437	Marionette	INFO	Listening on port 8179
+1641720246924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641720265328	Marionette	INFO	Stopped listening on port 8179
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641721071800	geckodriver	INFO	Listening on 127.0.0.1:8653
+1641721074888	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "8654" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile3rR9pK"
+1641721075207	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile3rR9pK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8654/devtools/browser/e1493e70-480e-443e-b9cd-2b566a542dbb
+1641721077097	Marionette	INFO	Listening on port 8659
+1641721077574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641721086897	Marionette	INFO	Stopped listening on port 8659
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641721158013	geckodriver	INFO	Listening on 127.0.0.1:8787
+1641721161082	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "8788" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileokbzlB"
+1641721161448	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileokbzlB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:8788/devtools/browser/aaf82617-353c-4c18-9d15-1db4c32f8ec9
+1641721163384	Marionette	INFO	Listening on port 8793
+1641721163814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:131:26
+
+1641721767201	Marionette	INFO	Stopped listening on port 8793
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:131:26
+
+console.warn: services.settings: main/hijack-blocklists sync interrupted by shutdown
+console.warn: services.settings: main/url-classifier-skip-urls sync interrupted by shutdown
+console.warn: services.settings: main/pioneer-study-addons-v1 sync interrupted by shutdown
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: services.settings: main/query-stripping sync interrupted by shutdown
+console.warn: services.settings: main/fxmonitor-breaches sync interrupted by shutdown
+console.warn: services.settings: main/search-telemetry sync interrupted by shutdown
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641748233548	geckodriver	INFO	Listening on 127.0.0.1:23038
+1641748236773	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "23039" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileHAXVFj"
+1641748237461	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileHAXVFj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:23039/devtools/browser/53e91db9-fa0c-4af5-8184-8df967cfd077
+1641748239396	Marionette	INFO	Listening on port 23047
+1641748239457	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641748239672	Marionette	INFO	Stopped listening on port 23047
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641748247983	geckodriver	INFO	Listening on 127.0.0.1:23086
+1641748251062	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "23087" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileqV9Kf5"
+*** You are running in headless mode.
+1641748251441	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileqV9Kf5\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:23087/devtools/browser/23f2b9cc-eac8-4b17-a1ba-8b345194ba8e
+1641748252632	Marionette	INFO	Listening on port 23095
+1641748252664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641748261985	Marionette	INFO	Stopped listening on port 23095
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1641748299828	geckodriver	INFO	Listening on 127.0.0.1:23240
+1641748302912	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "23241" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilegXrJVw"
+1641748303231	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilegXrJVw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:23241/devtools/browser/ebbce2d3-40db-4f2d-86e5-767c74caf8f6
+1641748305134	Marionette	INFO	Listening on port 23249
+1641748305577	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641748314637	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1641748314890	Marionette	INFO	Stopped listening on port 23249
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

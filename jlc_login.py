@@ -1,7 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.service import Service
-from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys## 模拟键盘用的包
 from selenium.webdriver.support.ui import Select##用来操作下拉列表中的选择题
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException## 找不到元素会报的错
@@ -12,8 +11,8 @@ import os, time
 options = webdriver.ChromeOptions()
 options.add_argument('-headless')
 options.add_argument('--disable-gpu')
-service = Service('/usr/bin/chromedriver')
-browser = webdriver.Chrome(service=service, options=options)
+service = "/usr/bin/chromedriver"
+browser = webdriver.Chrome(,options=options, service=service)
 
 def enter_web():
 	#进入登录网页

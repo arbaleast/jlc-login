@@ -13,7 +13,7 @@ options = webdriver.FirefoxOptions()
 options.add_argument('-headless')
 options.add_argument('--disable-gpu')
 service = "D:\\Program Files\\geckodriver"
-browser = webdriver.Firefox(serivce=service, options=options)
+browser = webdriver.Firefox(options=options)
 
 def enter_web():
 	#进入登录网页

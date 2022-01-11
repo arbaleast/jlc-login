@@ -10,7 +10,7 @@ import json##用来保存网站登录cookie，以后可以免密登录网站
 import os, time
 
 options = webdriver.FirefoxOptions()
-options.add_argument('-headless')
+#options.add_argument('-headless')
 options.add_argument('--disable-gpu')
 service = "D:\\Program Files\\geckodriver"
 browser = webdriver.Firefox(options=options)
@@ -67,12 +67,12 @@ def main():
 		browser.find_element(By.CSS_SELECTOR, ".sign-header-warp>a").click()
 		time.sleep(1)
 
+		a = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").text
+		print(a)
+
 		status = browser.find_element(By.CSS_SELECTOR, '.sign-action>button.btn,btn-primary').get_attribute('disabled')
 		if status != 'disabled':
 			browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").click()
-
-		a = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").text
-		print(a)
 
 		days_gift()
 

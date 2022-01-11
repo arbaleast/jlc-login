@@ -17,3 +17,15 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1641861422874	geckodriver	INFO	Listening on 127.0.0.1:28806
+1641861426023	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "28807" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileDa8K9D"
+1641861428040	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileDa8K9D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:28807/devtools/browser/4e502ed9-ac32-4428-94ad-2a501cf3ef76
+1641861430864	Marionette	INFO	Listening on port 28815
+1641861430976	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641861446647	Marionette	INFO	Stopped listening on port 28815
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

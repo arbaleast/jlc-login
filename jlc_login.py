@@ -1,7 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.firefox.service import service
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import service
 from selenium.webdriver.common.keys import Keys## 模拟键盘用的包
 from selenium.webdriver.support.ui import Select##用来操作下拉列表中的选择题
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException## 找不到元素会报的错
@@ -9,11 +9,11 @@ import time##不能一直爬取页面所以需要睡一会儿
 import json##用来保存网站登录cookie，以后可以免密登录网站
 import os, time
 
-options = webdriver.FirefoxOptions()
-#options.add_argument('-headless')
+options = webdriver.ChromeOptions()
+options.add_argument('-headless')
 options.add_argument('--disable-gpu')
-service = "D:\\Program Files\\geckodriver"
-browser = webdriver.Firefox(options=options)
+service = "/usr/bin/chromedriver"
+browser = webdriver.Chrome(service=service, options=options)
 
 def enter_web():
 	#进入登录网页
@@ -33,7 +33,6 @@ def account_login():
 def save_cookies():
 	## 保存cookie
 	cookies = browser.get_cookies()
-	print(cookies)
 	file = open('cookies.json', 'w', encoding = 'utf-8')
 	json.dump(cookies, file, ensure_ascii = False)
 	file.close()
@@ -43,7 +42,6 @@ def cookies_login():
 	cookie = json.load(cookies)
 
 	for cookie in cookies:
-		print(type(cookie))
 		browser.add_cookie(cookie)
 
 	

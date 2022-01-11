@@ -29,3 +29,26 @@ JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WE
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1641862600377	geckodriver	INFO	Listening on 127.0.0.1:2264
+1641862603375	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "2265" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile03nQF2"
+1641862603679	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile03nQF2\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:2265/devtools/browser/dcec192c-8592-405c-a6e0-12521fa1c51a
+1641862605616	Marionette	INFO	Listening on port 2272
+1641862606042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1641862615862	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1641862616092	Marionette	INFO	Stopped listening on port 2272
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

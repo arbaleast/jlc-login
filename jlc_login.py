@@ -11,6 +11,7 @@ import os, time
 
 options = webdriver.FirefoxOptions()
 options.add_argument('-headless')
+options.set_preference(‘permissions.default.image’,2)
 options.add_argument('--disable-gpu')
 ser = Service("/usr/bin/geckodriver")
 browser = webdriver.Firefox(service=ser, options=options)

@@ -41,6 +41,7 @@ jobs:
       - name: 'Working'
         run: |
           sudo cp -p ./geckodriver /usr/bin/
+          sudo apt update && sudo apt upgrade -y
           sudo apt install firefox
           chmod -R 777 /usr/bin/geckodriver
           echo "geckodriver/firefox"

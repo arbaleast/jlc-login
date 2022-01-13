@@ -52,3 +52,55 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642099378325	geckodriver	INFO	Listening on 127.0.0.1:26191
+1642099381554	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "26192" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilelPKISK"
+*** You are running in headless mode.
+1642099382191	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilelPKISK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:26192/devtools/browser/9f763924-c5f1-462f-af7d-7c6d3d95de16
+1642099383736	Marionette	INFO	Listening on port 26197
+1642099384286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642099395784	Marionette	INFO	Stopped listening on port 26197
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642099400806	geckodriver	INFO	Listening on 127.0.0.1:26294
+1642099403855	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "26295" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileWW1g3I"
+*** You are running in headless mode.
+1642099404269	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileWW1g3I\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:26295/devtools/browser/24286e2d-bd8c-4f2b-8911-b75feda2a521
+1642099405247	Marionette	INFO	Listening on port 26300
+1642099405394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642099414998	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1642099415234	Marionette	INFO	Stopped listening on port 26300
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642099533152	geckodriver	INFO	Listening on 127.0.0.1:26479
+1642099536246	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "26480" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileQSr90b"
+*** You are running in headless mode.
+1642099536570	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileQSr90b\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:26480/devtools/browser/868afb5b-6e65-4606-a2b8-0c780aefc380
+1642099537790	Marionette	INFO	Listening on port 26485
+1642099538332	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://g.alicdn.com/AWSC/uab/1.140.0/collina.js, line 4: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1642099549636	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1642099549862	Marionette	INFO	Stopped listening on port 26485
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

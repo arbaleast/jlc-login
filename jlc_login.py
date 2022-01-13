@@ -65,9 +65,9 @@ def main():
 		browser.find_element(By.CSS_SELECTOR, ".sign-header-warp>a").click()
 		time.sleep(1)
 		print('test1')
-		a = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn").text
-		b = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn").is_displayed()
-		print(b)
+		a = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").text
+		b = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").is_displayed()
+		print(a,b)
 		print('test2')
 		status = browser.find_element(By.CSS_SELECTOR, '.sign-action>button.btn').get_attribute('disabled')
 		if status != 'disabled':

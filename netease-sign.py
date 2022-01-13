@@ -5,7 +5,7 @@ from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
 
 options = webdriver.FirefoxOptions()
-#options.add_argument('-headless')
+options.add_argument('-headless')
 options.add_argument('--disable-gpu')
 options.set_preference('permissions.default.image',2)
 ser = Service("/usr/bin/geckodriver")

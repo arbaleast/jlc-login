@@ -223,3 +223,4 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642111825186	geckodriver	INFO	Listening on 127.0.0.1:34400

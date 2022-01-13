@@ -6,9 +6,9 @@ on:
     - cron: '30 5 * * *'
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [ dev ]
   pull_request:
-    branches: [ main ]
+    branches: [ dev ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -29,12 +29,29 @@ jobs:
       - name: 'Set up Python'
         uses: actions/setup-python@v1
         with:
-           python-version: 3.7
+           python-version: 3.9.9
+      
       - name: 'Install requirements'
         run: pip install -r ./requirements.txt
       - name: 'Working'
         run: |
-          sudo cp -p ./chromedriver /usr/bin/
-          chmod -R 777 /usr/bin/chromedriver
+          sudo cp -p ./geckodriver /usr/bin/
+          sudo apt install firefox
+          chmod -R 777 /usr/bin/geckodriver
+          echo "geckodriver/firefox"
+          which geckodriver
+          geckodriver --version
+          which firefox
+          firefox --version
+      
+      - name: SSH connection to Actions
+        uses: P3TERX/ssh2actions@v1.0.0
+        if: (github.event.inputs.ssh  != 'false') || contains(github.event.action, 'ssh')
+        env:
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      
+      - name: Test selenium
+        run: |
           ls
           python jlc_login.py

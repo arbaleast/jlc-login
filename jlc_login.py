@@ -66,7 +66,8 @@ def main():
 		time.sleep(1)
 
 		a = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").text
-		print(a)
+		b = browser.find_element(By.CSS_SELECTOR, ",sign-action>button.btn,btn-primary").is_displayed()
+		print(b)
 
 		status = browser.find_element(By.CSS_SELECTOR, '.sign-action>button.btn,btn-primary').get_attribute('disabled')
 		if status != 'disabled':

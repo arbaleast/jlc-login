@@ -64,17 +64,17 @@ def main():
 		#完成签到
 		browser.find_element(By.CSS_SELECTOR, ".sign-header-warp>a").click()
 		time.sleep(1)
-
+		print('test1')
 		a = browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").text
 		b = browser.find_element(By.CSS_SELECTOR, ",sign-action>button.btn,btn-primary").is_displayed()
 		print(b)
-
+		pritn('test2')
 		status = browser.find_element(By.CSS_SELECTOR, '.sign-action>button.btn,btn-primary').get_attribute('disabled')
 		if status != 'disabled':
 			browser.find_element(By.CSS_SELECTOR, ".sign-action>button.btn,btn-primary").click()
 
 		days_gift()
-
+		print(test3)
 	except Exception as e:
 		print(e)
 	#退出浏览器

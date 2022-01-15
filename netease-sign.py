@@ -3,13 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.firefox.service import Service
-
-options = webdriver.FirefoxOptions()
-options.add_argument('-headless')
-options.add_argument('--disable-gpu')
-options.set_preference('permissions.default.image',2)
-ser = Service("/usr/bin/geckodriver")
-browser = webdriver.Firefox(service=ser, options=options)
+from system_type import system
 
 def main():
     try:
@@ -45,6 +39,14 @@ def main():
         browser.quit()
     except Exception as Error:
         print(Error)
+
+options = webdriver.FirefoxOptions()
+options.add_argument('-headless')
+options.add_argument('--disable-gpu')
+options.set_preference('permissions.default.image',2)
+print("浏览器驱动位置： ", system())
+ser = Service(system())
+browser = webdriver.Firefox(service=ser, options=options)
 
 main()
 

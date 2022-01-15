@@ -224,3 +224,143 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 1642111825186	geckodriver	INFO	Listening on 127.0.0.1:34400
+1642232610652	geckodriver	INFO	Listening on 127.0.0.1:18008
+1642232618487	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "18009" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile3OcVpA"
+*** You are running in headless mode.
+1642232679740	geckodriver	INFO	Listening on 127.0.0.1:18114
+1642232682800	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "18115" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilezedsIu"
+*** You are running in headless mode.
+1642232683222	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilezedsIu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18115/devtools/browser/f7027215-7a18-4b65-9031-72920f187330
+1642232684377	Marionette	INFO	Listening on port 18121
+1642232684852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript error: https://cstaticdun.126.net/2.16.2/core.v2.16.2.min.js?v=2737054, line 1: Error: [NECaptcha] config: "element #pwd-captcha" not found
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+1642232696334	Marionette	INFO	Stopped listening on port 18121
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642232701071	geckodriver	INFO	Listening on 127.0.0.1:18200
+1642232704130	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "18201" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileegd12D"
+*** You are running in headless mode.
+1642232704522	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileegd12D\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18201/devtools/browser/f2400ae6-4504-42d8-98e7-6bcb8a9b660b
+1642232706053	Marionette	INFO	Listening on port 18208
+1642232706191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+1642232718015	Marionette	INFO	Stopped listening on port 18208
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642233057775	geckodriver	INFO	Listening on 127.0.0.1:18374
+1642233060840	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "18375" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilefMsbUH"
+*** You are running in headless mode.
+1642233061197	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilefMsbUH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18375/devtools/browser/2b12b940-18fe-4881-b10a-d1be8b4408d7
+1642233062529	Marionette	INFO	Listening on port 18380
+1642233062905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript error: https://cstaticdun.126.net/2.16.2/core.v2.16.2.min.js?v=2737055, line 1: Error: [NECaptcha] config: "element #pwd-captcha" not found
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+1642233074202	Marionette	INFO	Stopped listening on port 18380
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642233289263	geckodriver	INFO	Listening on 127.0.0.1:18497
+1642233292330	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "18498" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileIb5Da0"
+*** You are running in headless mode.
+1642233292656	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileIb5Da0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18498/devtools/browser/64a1af77-607c-4d5f-9b38-3fb66c747fa4
+1642233293908	Marionette	INFO	Listening on port 18503
+1642233294402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+1642233305617	Marionette	INFO	Stopped listening on port 18503
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642233340677	geckodriver	INFO	Listening on 127.0.0.1:18575
+1642233343758	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "18576" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile5tJAPu"
+*** You are running in headless mode.
+1642233344086	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile5tJAPu\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18576/devtools/browser/3c25dce1-17d1-4dad-bb40-033221a257da
+1642233345058	Marionette	INFO	Listening on port 18584
+1642233345326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_163eeace71d519554a5fb05513b6ef91.js?163eeace71d519554a5fb05513b6ef91, line 96: unreachable code after return statement
+1642233356599	Marionette	INFO	Stopped listening on port 18584
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642233390491	geckodriver	INFO	Listening on 127.0.0.1:18666
+1642233393585	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "18667" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile8A0fE6"
+*** You are running in headless mode.
+1642233393911	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile8A0fE6\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18667/devtools/browser/530f58d6-675d-4b7e-9c5c-6b768b874d78
+1642233395240	Marionette	INFO	Listening on port 18672
+1642233395643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js, line 1: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js, line 1: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js, line 1: TypeError: e is undefined
+1642233409433	Marionette	INFO	Stopped listening on port 18672
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642233440474	geckodriver	INFO	Listening on 127.0.0.1:18732
+1642233443572	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "18733" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilez8ZQ96"
+1642233443923	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofilez8ZQ96\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:18733/devtools/browser/e2549325-9063-4f3e-80a8-fc6510e90ae0
+1642233446051	Marionette	INFO	Listening on port 18738
+1642233446245	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js, line 1: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js, line 1: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js, line 1: TypeError: e is undefined
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.right.com.cn"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+JavaScript error: https://s.ssl.qhres2.com/ssl/ab77b6ea7f3fbf79.js, line 1: TypeError: e is undefined
+1642233558305	Marionette	INFO	Stopped listening on port 18738
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

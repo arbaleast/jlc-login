@@ -8,6 +8,7 @@ def system():
             path = re.split(r'\n', tmp.read())[1]
             return path
         case 'Linux':
+            tmp = os.popen('which geckodriver')
             path = re.split(r'\n', tmp.read())[0]
             return path
         case _:

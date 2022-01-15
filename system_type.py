@@ -8,7 +8,7 @@ def system():
             path = re.split(r'\n', tmp.read())[1]
             return path
         case 'Linux':
-            path = re.split(r'\n', tmp.read())[1]
+            path = re.split(r'\n', tmp.read())[0]
             return path
         case _:
             print('other platform?')

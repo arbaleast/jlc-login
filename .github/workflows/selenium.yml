@@ -3,7 +3,7 @@ name: selenium
 # Controls when the action will run. 
 on:
   schedule:
-    - cron: '30 5 * * *'
+    - cron: '59 14 * * *'
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
     branches: [ dev ]
@@ -40,6 +40,7 @@ jobs:
         run: pip install -r ./requirements.txt
       - name: 'Working'
         run: |
+          sudo timedatectl set-timezone Asia/Shanghai
           sudo cp -p ./geckodriver /usr/bin/
           sudo apt update && sudo apt upgrade -y
           sudo apt install firefox

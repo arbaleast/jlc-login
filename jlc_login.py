@@ -52,7 +52,7 @@ def days_gift():
 	for day in days:
 		six_point = browser.find_element(By.CSS_SELECTOR, "div."+ day +">img:first-child").is_displayed()
 		if six_point:
-			browser.find_element(By.CSS_SELECTOR, "div."+ day +">img:first-child").click()
+			browser.find_element(By.CSS_SELECTOR, "div."+ day + ">div").click()
 
 def main():
 	try:

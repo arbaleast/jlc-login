@@ -9,12 +9,12 @@ options = webdriver.FirefoxOptions()
 options.add_argument('-headless')
 options.add_argument('--disable-gpu')
 options.set_preference('permissions.default.image', 2)
-print("浏览器驱动位置： ", system())
 ser = Service(system())
 browser = webdriver.Firefox(service=ser, options=options)
 
 def main():
 	print("###############righ签到###############")
+	print("浏览器驱动位置： ", system())
 	
 	browser.get('https://www.right.com.cn/FORUM/member.php?mod=logging&action=login')
 

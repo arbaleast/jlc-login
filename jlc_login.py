@@ -57,6 +57,7 @@ def days_gift():
 def main():
 	try:
 		print("###############jlc签到###############")
+		print("浏览器驱动位置： ", system())
 		enter_web()
 		account_login()
 		save_cookies()

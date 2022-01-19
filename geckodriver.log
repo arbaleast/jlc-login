@@ -459,3 +459,41 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1642590896833	geckodriver	INFO	Listening on 127.0.0.1:33758
+1642590900019	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--disable-gpu" "--remote-debugging-port" "33759" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile6i0kwa"
+*** You are running in headless mode.
+1642590900704	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofile6i0kwa\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33759/devtools/browser/928a4f10-5310-4431-a794-0d9546a6c305
+1642590902244	Marionette	INFO	Listening on port 33764
+1642590902291	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_ae82f77fa630ef86d17e0d1214563191.js?ae82f77fa630ef86d17e0d1214563191, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_ae82f77fa630ef86d17e0d1214563191.js?ae82f77fa630ef86d17e0d1214563191, line 96: unreachable code after return statement
+JavaScript error: https://cstaticdun.126.net/2.16.2/core.v2.16.2.min.js?v=2737651, line 1: Error: [NECaptcha] config: "element #pwd-captcha" not found
+JavaScript warning: https://s3.music.126.net/web/s/core_ae82f77fa630ef86d17e0d1214563191.js?ae82f77fa630ef86d17e0d1214563191, line 96: unreachable code after return statement
+1642590913768	Marionette	INFO	Stopped listening on port 33764
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1642590950374	geckodriver	INFO	Listening on 127.0.0.1:33859
+1642590953437	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-gpu" "--remote-debugging-port" "33860" "-no-remote" "-profile" "C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileiFI5Du"
+1642590953896	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\33098\\AppData\\Local\\Temp\\rust_mozprofileiFI5Du\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33860/devtools/browser/5b8e87bd-8d3d-4c98-8f71-31752939f200
+1642590955992	Marionette	INFO	Listening on port 33865
+1642590956203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_ae82f77fa630ef86d17e0d1214563191.js?ae82f77fa630ef86d17e0d1214563191, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_ae82f77fa630ef86d17e0d1214563191.js?ae82f77fa630ef86d17e0d1214563191, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_ae82f77fa630ef86d17e0d1214563191.js?ae82f77fa630ef86d17e0d1214563191, line 96: unreachable code after return statement
+1642590967543	Marionette	INFO	Stopped listening on port 33865
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

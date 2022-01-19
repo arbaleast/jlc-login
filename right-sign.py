@@ -14,6 +14,7 @@ ser = Service(system())
 browser = webdriver.Firefox(service=ser, options=options)
 
 def main():
+	print("###############righ签到###############")
 	
 	browser.get('https://www.right.com.cn/FORUM/member.php?mod=logging&action=login')
 

@@ -8,6 +8,7 @@ from system_type import system
 def main():
     try:
         #网易云自动登录
+        print("###############网易云签到###############")
         browser.get('https://music.163.com/')
         browser.find_element(By.CSS_SELECTOR, 'div.m-tophead>a.s-fc3').click()
         #选择其他登录模式
@@ -41,7 +42,7 @@ def main():
         print(Error)
 
 options = webdriver.FirefoxOptions()
-options.add_argument('-headless')
+#options.add_argument('-headless')
 options.add_argument('--disable-gpu')
 options.set_preference('permissions.default.image',2)
 print("浏览器驱动位置： ", system())

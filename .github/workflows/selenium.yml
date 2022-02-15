@@ -1,1 +1,74 @@
+name: selenium
 
+# Controls when the action will run. 
+on:
+  schedule:
+    - cron: '30 6 * * *'
+  # Triggers the workflow on push or pull request events but only for the main branch
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+    inputs:
+      ssh:
+        description: 'SSH connnection to Actions'
+        required: false
+        default: 'false'
+
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      # Runs a single command using the runners shell
+      - name: 'Set up Python'
+        uses: actions/setup-python@v2
+        with:
+           python-version: '3.10.1'
+      
+
+      - name: 'Install requirements'
+        run: pip install -r ./requirements.txt
+      
+      - name: geckodriver/firefox
+        run: |
+          sudo timedatectl set-timezone Asia/Shanghai
+          sudo cp -p ./geckodriver /usr/bin/
+          sudo apt update && sudo apt upgrade -y
+          sudo apt install firefox
+          chmod -R 777 /usr/bin/geckodriver
+          echo "geckodriver/firefox"
+          which geckodriver
+          geckodriver --version
+          which firefox
+          firefox --version
+      
+      #- name: SSH connection to Actions
+      #  uses: P3TERX/ssh2actions@v1.0.0
+      #  if: (github.event.inputs.ssh == 'true' && github.event.inputs.ssh != 'false') || contains(github.event.action, 'ssh')
+      #  env:
+      #    TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      #    TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      
+
+      - name: Test selenium
+        env:
+          PHNU: ${{ secrets.PHNU }}
+          JLC_CODE: ${{ secrets.JLC_CODE }}
+          NETEASE_CODE: ${{ secrets.NETEASE_CODE }}
+          RIGHT_CODE: ${{ secrets.RIGHT_CODE }}
+        run:
+          python jlc_login.py
+          python right-sign.py
+          python netease-sign.py

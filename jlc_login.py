@@ -61,6 +61,7 @@ def days_gift():
 if __name__ == '__main__':
 	try:
 		PHNU = os.environ["PHNU"]
+		print(PHNU)
 		JLC_CODE = os.environ["JLC_CODE"]
 		print("###############jlc签到###############")
 		print("浏览器驱动位置： ", system())

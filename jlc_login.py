@@ -10,6 +10,7 @@ import time##不能一直爬取页面所以需要睡一会儿
 import json##用来保存网站登录cookie，以后可以免密登录网站
 import os
 
+
 options = webdriver.FirefoxOptions()
 options.add_argument('-headless')
 options.set_preference('permissions.default.image', 2)
@@ -57,7 +58,7 @@ def days_gift():
 		if six_point:
 			browser.find_element(By.CSS_SELECTOR, day + ">div").click()
 
-def main():
+if __name__ == '__main__':
 	try:
 		PHNU = os.environ["PHNU"]
 		JLC_CODE = os.environ["JLC_CODE"]
@@ -85,4 +86,3 @@ def main():
 	#退出浏览器
 	browser.quit()
 
-main()
